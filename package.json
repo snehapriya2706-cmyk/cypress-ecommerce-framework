@@ -1,0 +1,28 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headedTest": "npx cypress run --headed",
+    "browserTest": "npx run test --browser edge",
+    "recordDashboardTest": "npx cypress run --record --key e10c15e7-458b-4eb5-a887-c749c40705ba",
+    "runHooksandTags": "npx cypress run --spec \"cypress/e2e/Hooks and tags.cy.js/*\""
+  },
+  "author": "Sneha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.x.x",
+    "jsdom": "^26.0.0"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^15.12.0",
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}

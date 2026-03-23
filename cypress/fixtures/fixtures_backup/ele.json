@@ -1,0 +1,19 @@
+[
+    {
+        "username": "annapurani.swaminathan@swaas.net",
+        "password": "Annapurani02",
+        "expected": "Welcome to Home page"
+    },
+
+    {
+        "username": "annapurani.swaminathan@swas.net",
+        "password": "Annapurani02",
+        "expected": "Login Failed: Please check your credentials or try again later"  
+    },
+
+    {
+        "username": "annapurani.swaminathan@swas.net",
+        "password": "Annapurani",
+        "expected": "Login Failed: Please check your credentials or try again later"  
+    }
+]
