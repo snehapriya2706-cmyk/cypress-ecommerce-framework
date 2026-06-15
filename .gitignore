@@ -1,5 +1,7 @@
+cypress/e2e/Backup_tests/
+cypress\fixtures\fixtures_backup
 node_modules/
 mochawesome-report/
-cypress/videos/
 cypress/screenshots/
 cypress/downloads/
+cypress\reports
